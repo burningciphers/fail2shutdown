@@ -10,7 +10,7 @@ guessing at his leisure? `fail2shutdown` turns off your computer after
 a set number of failed login attempts.
 
 `fail2shutdown` imagines the following conditions:
-* an attacker with physical access
+* an attacker has physical access
 * the computer uses full-disk encryption
 * the attacker does not know the full-disk encryption password
 * the full-disk encryption password is sufficiently long and complex 
