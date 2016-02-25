@@ -15,13 +15,15 @@ guessing at his leisure?
 
 ## Installing and Running
 
-As root:
+#. As root:
  
 ```
 root@bcbox:~$ git clone https://github.com/burningciphers/fail2shutdown
 ```
 
-Add to root's crontab
+#. Open fail2shutdown and set the values for MAX_ATTEMPTS and DURATIONS.
+
+#. Add the script to root's crontab.
 
 ```
 root@bcbox:~# crontab -l
