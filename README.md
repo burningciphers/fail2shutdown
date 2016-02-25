@@ -26,7 +26,8 @@ an attacker with physical access.
     root@bcbox:~$ git clone https://github.com/burningciphers/fail2shutdown
     ```
 
-2. Open fail2shutdown and set the values for MAX_ATTEMPTS and DURATIONS.
+2. Open `fail2shutdown.py` and set the values for MAX_ATTEMPTS and 
+DURATIONS.
 
 3. Add the script to root's crontab.
 
