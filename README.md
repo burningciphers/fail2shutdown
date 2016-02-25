@@ -15,8 +15,8 @@ a set number of failed login attempts.
 * the attacker does not know the full-disk encryption password
 * the full-disk encryption password is sufficiently long and complex 
 
-However, even if you don't use full-disk encryption, `fail2shutdown` still
-slows down an attacker with physical access who's guessing your password.
+If you don't use full-disk encryption, `fail2shutdown` only slows down
+an attacker with physical access.
 
 ## Installing and Running
 
