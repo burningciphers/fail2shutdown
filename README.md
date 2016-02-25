@@ -17,16 +17,16 @@ guessing at his leisure?
 
 1. As root:
  
-```
-root@bcbox:~$ git clone https://github.com/burningciphers/fail2shutdown
-```
+    ```
+    root@bcbox:~$ git clone https://github.com/burningciphers/fail2shutdown
+    ```
 
 2. Open fail2shutdown and set the values for MAX_ATTEMPTS and DURATIONS.
 
 3. Add the script to root's crontab.
 
-```
-root@bcbox:~# crontab -l
-# m h  dom mon dow   command
-* * * * * /usr/bin/python3 /root/fail2shutdown/fail2shutdown.py
-```
+    ```
+    root@bcbox:~# crontab -l
+    # m h  dom mon dow   command
+    * * * * * /usr/bin/python3 /root/fail2shutdown/fail2shutdown.py
+    ```
