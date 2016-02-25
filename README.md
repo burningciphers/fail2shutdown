@@ -6,12 +6,17 @@ There's [fail2ban](https://en.wikipedia.org/wiki/Fail2ban) for brute-force
 attacks over the network. But what if an attacker has physical access to
 your computer? What if an attacker is sitting at your desk guessing
 your password while you're sleeping? Or has stolen your laptop and is
-guessing at his leisure?
+guessing at his leisure? `fail2shutdown` turns off your computer after
+a set number of failed login attempts.
 
 `fail2shutdown` imagines the following conditions:
 * an attacker with physical access
 * the computer uses full-disk encryption
-* the attacker does not know the FDE password
+* the attacker does not know the full-disk encryption password
+* the full-disk encryption password is sufficiently long and complex 
+
+However, even if you don't use full-disk encryption, `fail2shutdown` still
+slows down an attacker with physical access who's guessing your password.
 
 ## Installing and Running
 
