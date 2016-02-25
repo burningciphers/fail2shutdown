@@ -4,7 +4,7 @@
 
 There's [fail2ban](https://en.wikipedia.org/wiki/Fail2ban) for brute-force 
 attacks over the network. But what if an attacker has physical access to
-to your computer? What if an attacker is sitting at your desk guessing
+your computer? What if an attacker is sitting at your desk guessing
 your password while you're sleeping? Or has stolen your laptop and is
 guessing at his leisure?
 
