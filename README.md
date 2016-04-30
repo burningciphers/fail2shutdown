@@ -29,6 +29,8 @@ DURATIONS.
 
 3. Add the script to root's crontab.
 
-    ```root@bcbox:~# crontab -l
+    ```
+	root@bcbox:~# crontab -l
     # m h  dom mon dow   command
-    * * * * * /usr/bin/python3 /root/fail2shutdown/fail2shutdown.py```
+    * * * * * /usr/bin/python3 /root/fail2shutdown/fail2shutdown.py
+	```
